@@ -7,7 +7,7 @@ const server = http.createServer((req, res) => {
 res.statusCode = 200;
 
 res.setHeader('Content-Type', 'text/plain');
-res.end('Hello World');
+res.end('Hello World, welcome to Mobile Application Development program Fall 2023');
 });
 
 server.listen(port, hostname, () => {
